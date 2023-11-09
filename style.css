@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(255, 251, 211);
+background: url('Gaya\ hidup\ sehat.jpg');
+background-size: cover;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15;
+    font: size 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    
+}
+.logo1{
+    font-family: fantasy;
+    padding-left: 30px;
+    font-size: 40px;
+}
+.logo2{
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    padding-top: 30px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 30px;
+    gap: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    color: rgb(2, 1, 14);
+    font-size: 15px;
+}
+.thumbnail{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    width: auto;
+}
+.motto{
+font-size: 20px;}
+
+
+.poin>a{
+    background-color: rgb(4, 224, 4);
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+}
+.mid{
+    text-align: center;
+  
+    
+    
+}

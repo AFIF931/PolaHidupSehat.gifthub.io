@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Rubik', sans-serif;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.144);
+    z-index: -1;
+}
+
+.navigasi{
+ display: flex;
+    justify-content: space-between; 
+    height: 50px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(7, 9, 26, 0.801);
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15;
+    font: size 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.logo1{
+    font-family: fantasy;
+   padding-left: 5px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.logo2{
+    font-family: fantasy;
+    font-size: 25px;
+    color: aliceblue;
+}
+.logo0{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    font-size:18px;
+    color: aliceblue;
+    margin-right: 10px;
+    padding: 5px 0;
+    position: relative;
+    font-weight: bold;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu li a::after{
+    content:'' ;
+    background: #10daf5;
+    height: 4px;
+    width: 0;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    transition: 0.5s;
+}
+.menu>li>a:hover:after{
+width: 100%;
+}
+.isi{
+    padding-top: 20vh;
+    padding-right: 40vh;
+    padding-left: 40vh;
+    text-align:center;
+}
+.pembuka{
+    font-size: 25px;
+    color: aliceblue;
+}
+.made{
+    padding-top: 10vh;
+    font-size: 20px;
+    color: aliceblue;
+}
+.nama button{
+   margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    border-color: chartreuse;
+    height: 10vh;
+    border-width: 3px;
+    width: 30vh;
+    background-color: transparent;
+}
+.nama button p{
+    font-size: 15px;
+    color: aliceblue;
+
+}
+button:hover{
+    box-shadow: 5px 1px 50px 0 #01ecfd,
+    0px 10px 20px 0 #ebfffe,
+    10px 0px 70px 0 rgba(54, 58, 38, 0.534) inset;
+    background-color: white;
+}
